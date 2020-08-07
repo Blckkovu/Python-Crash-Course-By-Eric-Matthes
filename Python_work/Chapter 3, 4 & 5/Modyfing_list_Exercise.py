@@ -66,25 +66,33 @@ print(message7)
 #the point of this task is to see whether you've understood how to modify a list
 #shrink guest list so that only 2 people are invited
 print (invites)
+
 #remove invite so as your left with only 2
-
+#Apperently when you remove an item(value) the position is immediately transffered to the next item
 popped_1Uninvited = invites.pop(0)
-popped_2Uninvited = invites.pop(1)
-popped_3Uninvited = invites.pop(2)
-popped_4Uninvited = invites.pop(3)
-popped_4Uninvited = invites.pop(-1)
+#Note thhat nikola was removed in the first position 0 it is safe to say that the next item is stored in the current removed position
+popped_2Uninvited = invites.pop(0)
+#Note zackerberg has been removed in the first position 0
+#To remove them in order start from the last position -1 then -2 continue...
+#but first note that the removed value is stored in the variable popped_1Uninvited and popped_2Uninvited
 
-#not certain how each item was stored in so i used -1
+print(popped_1Uninvited)
+print (popped_2Uninvited)
 
+#Continue to remove each item
+popped_3Uninvited = invites.pop(0)
+popped_4Uninvited = invites.pop(0)
+popped_5Uninvited = invites.pop(0)
 
 #inviting the last 2
 print (invites)
-print(message2)
-print (message4)
+print(message6)
+print (message7)
 
 #removing the last 2 invites
 print (invites)
-del invites[1]
+#delete last two
 del invites[0]
 
+del invites[-1]
 print(invites)
