@@ -12,7 +12,11 @@ print (Languages[0])
 #or
 #in this example the output is capitalized
 print (Languages[0].upper())
-#index position always starts at 0 the second 1
+print (Languages[2] + ' is a boring language')
+#index position always starts at 0 the second 1....
+
+#When asking for the last index you ask with the index -1
+print(Languages[-1]+ ' is fun for hacking.')
 
 #using individual values from a list and create a message by concatenation
 Person = ['Elon', 'Eric', 'Tesla', 'Einstein', 'Peter']
@@ -25,5 +29,11 @@ print (Names[0])
 print(Names[1])
 print(Names[2])
 print(Names[3])
-message= 'Hey ' + Names[1] + ' !'
-print (message)
+message1= 'Hey ' + Names[0] + ' !'
+message2= 'Hey ' + Names[1] + ' !'
+message3= 'Hey ' + Names[2] + ' !'
+message4= 'Hey ' + Names[3] + ' !'
+print(message1)
+print(message2)
+print(message3)
+print(message4)
