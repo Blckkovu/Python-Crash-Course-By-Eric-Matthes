@@ -13,23 +13,23 @@ print(Visit)
 #output ['Chile', 'Tibet', 'Bali', 'Egypt', 'Canada']
 
 #print in reverse alphbatical order
-Visit.sort(reverse=)
+print(sorted(Visit,reverse=True))
 #output ['Tibet', 'Egypt', 'Chile', 'Canada', 'Bali']
 
 #show its in its original order
 print(Visit)
-#output ['Bali', 'Canada', 'Chile', 'Egypt', 'Tibet']
+#output ['Chile', 'Tibet', 'Bali', 'Egypt', 'Canada']
 
 #use reverse to change order of list
 Visit.reverse()
 print(Visit)
+#ouput ['Canada', 'Egypt', 'Bali', 'Tibet', 'Chile']
 
 #use reverse to change order of list again
 Visit.reverse()
 print(Visit)
+#output ['Chile', 'Tibet', 'Bali', 'Egypt', 'Canada']
 
-#okay my head hurts i cant seem to know whats happening from line 18
-#so im just gonna finish the last 2 exercise
 #exercise 3.9
 print(len(Visit))
 places=(len(Visit))
