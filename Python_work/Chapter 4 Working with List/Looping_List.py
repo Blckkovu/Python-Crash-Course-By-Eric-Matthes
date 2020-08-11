@@ -33,5 +33,4 @@ for animal in Animals:
 
 #if you can store a mwssage i a list an print it accordingly with the animal list please do so
 
-
 print('All of them are pets')
