@@ -17,8 +17,8 @@ message5= invites[1].title() + " can't make it to the Gala"
 print(message5)
 
 #modifying the list with the name of the person who cant make it with the name of the person you are inviting
-
-invites.remove('Albert')
+Unattending= 'Albert'
+invites.remove(Unattending)
 print (invites)
 
 #replacing the name of the person who can't make it with one who can
@@ -93,6 +93,5 @@ print (message7)
 print (invites)
 #delete last two
 del invites[0]
-
 del invites[-1]
 print(invites)

@@ -2,7 +2,7 @@
 cars = ['Bmw', 'Audi','Toyota', 'Subaru']
 cars.sort()
 print(cars)
-#The cars have been arranged in alphabetical order
+#The cars have permanently been arranged in alphabetical order
 #output ['Audi', 'Bmw', 'Subaru', 'Toyota']
 
 #reverse in alphabetical order, this is done by passing the argument reverse=True

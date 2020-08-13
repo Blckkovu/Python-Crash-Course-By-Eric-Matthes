@@ -16,7 +16,7 @@ print(even_numbers)
 ##you can create alost any set of numbers you want to use the range value
 squares=[]
 for value in range(1,11):
-    square = value
+    square = value**2
     squares.append(square)
 print(squares)
 #each value is immediately squared and appended to the list squares

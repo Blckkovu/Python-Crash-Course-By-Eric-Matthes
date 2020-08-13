@@ -1,4 +1,4 @@
-name= "Python Programming"
+name= "Python Programming! "
 print(name.title())
 #In this example the lowercase string(james mwangi) is stored in the variable name
 #the method title()appears after the variable in the print
@@ -7,3 +7,4 @@ print(name.title())
 #several others methods can be used to change the string to upper case or lower case
 print(name.lower())
 print(name.upper())
+print(name)
