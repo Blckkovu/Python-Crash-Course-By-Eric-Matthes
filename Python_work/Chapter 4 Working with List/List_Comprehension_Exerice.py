@@ -15,8 +15,7 @@ print(odd_numbers)
 
 #exercise 4.7 make a list of multiples of 3 from 3 to 30 and use a for loop to print he numbers on the alist
 Multiples=[]
-for value in range(3,30):
-    value=(value%3==0)
+for value in range(3,30,3):
     Multiple=value
     Multiples.append(Multiple)
 print(Multiples)
