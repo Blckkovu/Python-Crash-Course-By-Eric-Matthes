@@ -29,8 +29,9 @@ Buffet_Menu=('Fries', 'Rice & pea stew', 'Ugali & kale', 'Injera & Beef stew')
 print("New_List")
 for food in Buffet_Menu:
     print(food)
-    
+
 #creating an error
 Buffet_Menu.insert(2, Injera)
 Buffet_Menu.insert(-1, chicken_stew)
 print(food)
+#values in a tuple cannot be changed
