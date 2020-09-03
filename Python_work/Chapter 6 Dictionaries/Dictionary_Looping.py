@@ -5,7 +5,7 @@ user={
 'second_name':'wrath'
 }
 for key, value in user.items():
-    print(key +' ' + value )
+    print(key +': ' + value )
 
 favourite_fruits={
 'Jen':'Oranges',
